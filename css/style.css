@@ -205,6 +205,12 @@ h6,
         color: var(--dark);
         background: var(--secondary);
     }
+
+    .container-xxl {
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 100% !important;
+    }
 }
 
 
