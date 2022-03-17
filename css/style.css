@@ -1,10 +1,17 @@
 /********** Template CSS **********/
 :root {
-    --primary: #6222CC;
+    --primary: #32174d;
     --secondary: #FBA504;
     --light: #F6F4F9;
     --dark: #04000B;
 }
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #32174d;
+    border-color: #32174d;
+  }
 
 
 /*** Spinner ***/
@@ -213,10 +220,14 @@ h6,
     }
 }
 
+.bg-primary {
+   background-color: #301934 !important;
+}
+
 
 /*** Hero Header ***/
 .hero-header {
-    margin-bottom: 6rem;
+    margin-bottom: 0;
     padding: 18rem 0;
     background:
         url(../img/blob-top-left.png),
