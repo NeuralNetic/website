@@ -15,6 +15,11 @@
   }
 
 
+.text-primary {
+    color: var(--basecolor) !important;
+}
+
+
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -395,7 +400,7 @@ h6,
     align-items: center;
     justify-content: center;
     color: var(--light);
-    background: url(../img/blob-primary.png) center center no-repeat;
+    background: url(../img/blob-primary.svg) center center no-repeat;
     background-size: contain;
     transition: .5s;
 }
