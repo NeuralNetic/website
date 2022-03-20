@@ -173,10 +173,10 @@ h6,
     }
 }
 
-.container-xxl {
+/* .container-xxl {
     margin-left: 0;
     margin-bottom: -5rem;
-}
+} */
 
 @media (min-width: 992px) {
     .navbar-light {
