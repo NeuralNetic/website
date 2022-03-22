@@ -519,6 +519,14 @@ h6,
     min-height: 310px;
 }
 
+@media (max-width: 500px) {
+    .testimonial-carousel .testimonial-item {
+        padding: 0 30px 30px 30px;
+        height: 25rem;
+        /* min-height: 25rem; */
+    }
+}
+
 .testimonial-carousel .owl-nav {
     display: flex;
     justify-content: center;
