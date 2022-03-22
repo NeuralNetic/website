@@ -486,6 +486,13 @@ h6,
     opacity: 0;
 }
 
+
+.btn-secondary:hover {
+    color: #000;
+    background-color: #71C973;
+    border-color: #71C973;
+}
+
 .portfolio-item:hover .portfolio-overlay {
     opacity: 1;
 }
