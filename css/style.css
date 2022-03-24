@@ -486,6 +486,13 @@ h6,
     opacity: 0;
 }
 
+
+.btn-secondary:hover {
+    color: #000;
+    background-color: #71C973;
+    border-color: #71C973;
+}
+
 .portfolio-item:hover .portfolio-overlay {
     opacity: 1;
 }
@@ -517,6 +524,14 @@ h6,
     padding: 0 30px 30px 30px;
     height: 310px;
     min-height: 310px;
+}
+
+@media (max-width: 500px) {
+    .testimonial-carousel .testimonial-item {
+        padding: 0 30px 30px 30px;
+        height: 25rem;
+        /* min-height: 25rem; */
+    }
 }
 
 .testimonial-carousel .owl-nav {
