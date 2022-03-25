@@ -535,13 +535,12 @@ h6,
     right 0px bottom 0px,
     center center;
     background-repeat: no-repeat;
-}style="margin: 0 1em 1em 0;"
 }
 
 .testimonial-carousel .testimonial-item {
     padding: 0 30px 30px 30px;
     height: auto;
-    min-height: 310px;
+    min-height: 18rem;
 }
 
 /* @media (max-width: 500px) {
