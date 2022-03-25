@@ -5,6 +5,7 @@
     --secondary: #FBA504;
     --light: #F6F4F9;
     --dark: #04000B;
+    --green: #71C973;
 }
 
 
@@ -419,10 +420,7 @@ h6,
 .service-item h5,
 .service-item p {
     transition: .5s;
-}
-
-.service-item:hover h5,
-.service-item:hover p {
+}background-color: #71C973
     color: #FFFFFF;
 }
 
@@ -475,6 +473,7 @@ h6,
 .portfolio-item .portfolio-overlay {
     position: absolute;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -494,14 +493,27 @@ h6,
 
 .btn-secondary:hover {
     color: #000;
-    background-color: #71C973;
-    border-color: #71C973;
+    background-color: var(--green);
+    border-color: var(--green);
+}
+
+
+.btn-gray {
+    color: #000;
+    background-color: var(--light);
+    border-color: var(--light);
+}
+
+.btn-gray:hover {
+    color: #000;
+    background-color: var(--green);
+    border-color: var(--green);
 }
 
 .btn-light:hover {
     color: #000;
-    background-color: #71C973;
-    border-color: #71C973;
+    background-color: var(--green);
+    border-color: var(--green);
 }
 
 .portfolio-item:hover .portfolio-overlay {
@@ -523,12 +535,7 @@ h6,
     right 0px bottom 0px,
     center center;
     background-repeat: no-repeat;
-}
-
-
-/*** Testimonial ***/
-.fs-5 {
-    min-height: 200px
+}style="margin: 0 1em 1em 0;"
 }
 
 .testimonial-carousel .testimonial-item {
