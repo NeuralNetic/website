@@ -682,7 +682,9 @@ h6,
     color: var(--secondary);
 }
 
-.footer .col-lg-3 {
-    flex: 0 0 auto;
-    width: 33.33%;
+@media (min-width: 991.98px) {
+    .footer .col-lg-3 {
+        flex: 0 0 auto;
+        width: 33.33%;
+    }
 }
