@@ -420,7 +420,10 @@ h6,
 .service-item h5,
 .service-item p {
     transition: .5s;
-}background-color: #71C973
+}
+
+.service-item:hover h5,
+.service-item:hover p {
     color: #FFFFFF;
 }
 
@@ -510,10 +513,17 @@ h6,
     border-color: var(--green);
 }
 
+
+.btn-secondary:hover {
+    color: #000;
+    background-color: ar(--green);
+    border-color: ar(--green);
+}
+
 .btn-light:hover {
     color: #000;
-    background-color: var(--green);
-    border-color: var(--green);
+    background-color: ar(--green);
+    border-color: ar(--green);
 }
 
 .portfolio-item:hover .portfolio-overlay {
@@ -537,10 +547,16 @@ h6,
     background-repeat: no-repeat;
 }
 
+
+/*** Testimonial ***/
+.fs-5 {
+    min-height: 200px
+}
+
 .testimonial-carousel .testimonial-item {
     padding: 0 30px 30px 30px;
     height: auto;
-    min-height: 18rem;
+    min-height: 310px;
 }
 
 /* @media (max-width: 500px) {
