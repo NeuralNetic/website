@@ -516,14 +516,14 @@ h6,
 
 .btn-secondary:hover {
     color: #000;
-    background-color: ar(--green);
-    border-color: ar(--green);
+    background-color: var(--green);
+    border-color: var(--green);
 }
 
 .btn-light:hover {
     color: #000;
-    background-color: ar(--green);
-    border-color: ar(--green);
+    background-color: var(--green);
+    border-color: var(--green);
 }
 
 .portfolio-item:hover .portfolio-overlay {
