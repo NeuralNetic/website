@@ -89,6 +89,21 @@
 
         portfolioIsotope.isotope({filter: $(this).data('filter')});
     });
+
+    $("form").on("submit", function (e) {
+        var dataString = $(this).serialize();
+         
+        $.ajax({
+          type: "POST",
+          url: "https://vktrpnzrv.fvds.ru/send",
+          data: dataString,
+          success: function () {
+            // Display message back to the user here
+          }
+        });
+     
+        e.preventDefault();
+    });
     
 })(jQuery);
 
