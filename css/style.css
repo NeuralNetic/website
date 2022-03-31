@@ -553,6 +553,18 @@ h6,
     min-height: 200px
 }
 
+@media only screen and (max-device-width: 480px) {
+    .fs-5{
+        min-height: 350px;
+    }
+}
+
+/*@media(min-width:768px) and (max-height:734px) {
+    .fs-5{
+        min-height: 240px;
+    }
+}*/
+
 .testimonial-carousel .testimonial-item {
     padding: 0 30px 30px 30px;
     height: auto;
